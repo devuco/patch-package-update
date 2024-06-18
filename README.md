@@ -13,6 +13,8 @@ Simplifies the workflow of using patch-package with version updates.
 
 You can use npx to run patch-package-update without installing it globally. However, if you prefer to install it globally, you can do so via npm.
 
+#### Note: If you have added "patch-package" in the "scripts" section of your package.json under "postinstall", please remove it before running this command. You can add it back later.
+
 ### Using npx (recommended)
 
 ```bash
