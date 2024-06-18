@@ -1,15 +1,27 @@
 {
 	"name": "patch-package-update",
-	"version": "1.0.7",
+	"version": "1.0.8",
 	"description": "",
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
-	"keywords": [],
-	"author": "",
 	"license": "ISC",
 	"bin": {
 		"patch-package-update": "bin/index.js"
-	}
+	},
+	"repository": "https://github.com/devuco/patch-package-update",
+	"author": "devuco <samyakagrawal13@gmail.com> (https://github.com/devuco)",
+	"bugs": {
+		"url": "https://github.com/devuco/patch-package-update/issues"
+	},
+	"homepage": "https://github.com/devuco/patch-package-update#readme",
+	"publishConfig": {
+		"registry": "https://registry.npmjs.org/"
+	},
+	"keywords": [
+		"patch-package",
+		"patch",
+		"update-patch-package"
+	]
 }
